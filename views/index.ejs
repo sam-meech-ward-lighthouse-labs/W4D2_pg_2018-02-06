@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <% for (let row of rows) { %>
+    <p><%= JSON.stringify(row) %></p>
+  <% } %>
+
+  <form action="/" method="get">
+  <label for="search-input">Search:</label>
+  <input name="search" id="search-input">
+  <input type="submit" value="🖕">
+  </form>
+  
+</body>
+</html>
